@@ -76,7 +76,7 @@ section .container > * {
 }
 .main__container-sections {
   max-width: 70rem;
-  padding: 20px 2rem;
+  padding: 95px 2rem;
   margin: 0 auto;
 }
 

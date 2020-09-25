@@ -6,6 +6,7 @@
 @import "./icon.css";
 @import "./components/prices.css";
 @import "./components/horario.css";
+@import "./components/separator.css";
 
 * {
   padding: 0;
@@ -67,6 +68,9 @@ main {
   opacity: 0;
 }
 
+.link-log{
+  text-decoration: none;
+} 
 @media only screen and (orientation: portrait) {
   #app {
     display: block;
@@ -78,7 +82,7 @@ main {
     display: none;
   }
   #body {
-    background-image: url("../../img/landscape.jpg");
+    background-image: url("../../assets/img/landscape.jpg");
     background-size: cover;
   }
 }
