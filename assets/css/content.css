@@ -1,18 +1,11 @@
 section {
   width: 100%;
-  background-color: #151515;
+  /* background-color: #151515; */
+  /* background-color: #85ab74; */
+  background: linear-gradient(to bottom, #151515, #85ab74);
   position: relative;
 }
 
-section .container {
-  /* padding: 3rem; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
 
 section img {
   width: 100%;
@@ -29,9 +22,7 @@ section .container > * {
   justify-content: center;
 }
 
-.imgContainer {
-  transform: translateY(50px);
-}
+ 
 .main{
   background-color:#f5f7fa ;
 }
