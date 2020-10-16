@@ -1,4 +1,7 @@
 .section{
+    padding: 15px 0;
+}
+.section__main{
     padding: 325px 0;
 }
 .section__principal{
